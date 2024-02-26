@@ -9,6 +9,7 @@ export default defineConfig({
     sdHooks: process.cwd() + '/packages/hooks/src/index.ts',
     ['sd-hooks']: process.cwd() + '/packages/hooks/src/index.ts',
   },
+  publicPath: '/sd-hooks/',
   themeConfig: {
     name: 'sd-hooks',
     logo: '/logo.png',
