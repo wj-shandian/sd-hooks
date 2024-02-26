@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "compilerOptions": {
+    "target": "ES5",
+    "moduleResolution": "node",
+    "lib": ["ESNext", "dom"],
+    "jsx": "react",
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "sdHooks": ["./packages/hooks/src/index.ts"],
+      "sd-hooks": ["./packages/hooks/src/index.ts"],
+      "sdHooks/lib/*": ["./packages/hooks/src/*"],
+      "sd-hooks/lib/*": ["./packages/hooks/src/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "importHelpers": true
+  },
+  "exclude": ["node_modules", "lib", "es", "dist", "example"]
+}
