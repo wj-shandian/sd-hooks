@@ -4,16 +4,16 @@ export default defineConfig({
   resolve: {
     atomDirs: [{ type: 'hooks', dir: './packages/hooks/src' }],
   },
-  hash: true,
   alias: {
     sdHooks: process.cwd() + '/packages/hooks/src/index.ts',
     ['sd-hooks']: process.cwd() + '/packages/hooks/src/index.ts',
   },
   publicPath: '/sd-hooks/',
+  history: { type: 'hash' },
   themeConfig: {
     name: 'sd-hooks',
-    logo: '/logo.png',
-    favicon: '/logo.png',
+    logo: '/sd-hooks/logo.png',
+    favicon: '/sd-hooks/logo.png',
 
     nav: [
       { title: '指南', link: '/guid' },

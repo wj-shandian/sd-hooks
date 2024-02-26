@@ -4,7 +4,7 @@
 import React from 'react';
 
 export async function getRoutes() {
-  const routes = {"404":{"id":"404","path":"*","parentId":"DocLayout"},"dumi-context-layout":{"id":"dumi-context-layout","path":"/","isLayout":true},"DocLayout":{"id":"DocLayout","path":"/","parentId":"dumi-context-layout","isLayout":true},"docs/guid/index":{"path":"guid","id":"docs/guid/index","parentId":"DocLayout"},"docs/guid/test":{"path":"guid/test","id":"docs/guid/test","parentId":"DocLayout"},"docs/index":{"path":"","id":"docs/index","parentId":"DocLayout"},"hooks/useToggle/index":{"id":"hooks/useToggle/index","path":"hooks/use-toggle","parentId":"DocLayout","meta":{"_atom_route":true}},"demo-render":{"id":"demo-render","path":"~demos/:id","parentId":"dumi-context-layout","prerender":false}} as const;
+  const routes = {"404":{"id":"404","path":"*","parentId":"DocLayout"},"dumi-context-layout":{"id":"dumi-context-layout","path":"/","isLayout":true},"DocLayout":{"id":"DocLayout","path":"/","parentId":"dumi-context-layout","isLayout":true},"docs/guid/index":{"path":"guid","id":"docs/guid/index","parentId":"DocLayout"},"docs/guid/test":{"path":"guid/test","id":"docs/guid/test","parentId":"DocLayout"},"docs/index":{"path":"","id":"docs/index","parentId":"DocLayout"},"hooks/index":{"id":"hooks/index","path":"hooks","parentId":"DocLayout","meta":{"_atom_route":true}},"hooks/useToggle/index":{"id":"hooks/useToggle/index","path":"hooks/use-toggle","parentId":"DocLayout","meta":{"_atom_route":true}},"demo-render":{"id":"demo-render","path":"~demos/:id","parentId":"dumi-context-layout","prerender":false}} as const;
   return {
     routes,
     routeComponents: {
@@ -14,6 +14,7 @@ export async function getRoutes() {
 'docs/guid/index': React.lazy(() => import(/* webpackChunkName: "docs__guid__index.md" */'/Users/wangjie/mySpace/sd-hooks/docs/guid/index.md')),
 'docs/guid/test': React.lazy(() => import(/* webpackChunkName: "docs__guid__test.md" */'/Users/wangjie/mySpace/sd-hooks/docs/guid/test.md')),
 'docs/index': React.lazy(() => import(/* webpackChunkName: "docs__index.md" */'/Users/wangjie/mySpace/sd-hooks/docs/index.md')),
+'hooks/index': React.lazy(() => import(/* webpackChunkName: "packages__hooks__src__index.md" */'/Users/wangjie/mySpace/sd-hooks/packages/hooks/src/index.md')),
 'hooks/useToggle/index': React.lazy(() => import(/* webpackChunkName: "packages__hooks__src__useToggle__index.md" */'/Users/wangjie/mySpace/sd-hooks/packages/hooks/src/useToggle/index.md')),
 'demo-render': React.lazy(() => import(/* webpackChunkName: "nm__dumi__dist__client__pages__Demo__index" */'/Users/wangjie/mySpace/sd-hooks/node_modules/.pnpm/dumi@2.2.17_@babel+core@7.23.6_@types+node@20.11.5_eslint@7.2.0_jest@29.4.1_prettier@2.8.8_re_kmvipu4kv2rgrmycn66hmtva44/node_modules/dumi/dist/client/pages/Demo/index.js')),
 },

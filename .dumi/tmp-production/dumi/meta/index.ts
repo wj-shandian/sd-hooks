@@ -4,7 +4,8 @@
 import { demos as dm0, frontmatter as fm0, toc as toc0, texts as txt0 } from '/Users/wangjie/mySpace/sd-hooks/docs/guid/index.md?type=meta';
 import { demos as dm1, frontmatter as fm1, toc as toc1, texts as txt1 } from '/Users/wangjie/mySpace/sd-hooks/docs/guid/test.md?type=meta';
 import { demos as dm2, frontmatter as fm2, toc as toc2, texts as txt2 } from '/Users/wangjie/mySpace/sd-hooks/docs/index.md?type=meta';
-import { demos as dm3, frontmatter as fm3, toc as toc3, texts as txt3 } from '/Users/wangjie/mySpace/sd-hooks/packages/hooks/src/useToggle/index.md?type=meta';
+import { demos as dm3, frontmatter as fm3, toc as toc3, texts as txt3 } from '/Users/wangjie/mySpace/sd-hooks/packages/hooks/src/index.md?type=meta';
+import { demos as dm4, frontmatter as fm4, toc as toc4, texts as txt4 } from '/Users/wangjie/mySpace/sd-hooks/packages/hooks/src/useToggle/index.md?type=meta';
 
 export { components } from './atoms';
 export { tabs } from './tabs';
@@ -28,11 +29,17 @@ export const filesMeta = {
     texts: txt2,
     demos: dm2,
   },
-  'hooks/useToggle/index': {
+  'hooks/index': {
     frontmatter: fm3,
     toc: toc3,
     texts: txt3,
     demos: dm3,
+  },
+  'hooks/useToggle/index': {
+    frontmatter: fm4,
+    toc: toc4,
+    texts: txt4,
+    demos: dm4,
   },
 }
 
