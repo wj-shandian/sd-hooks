@@ -1,5 +1,5 @@
 import React from 'react';
-import { useToggle } from 'sdHooks';
+import { useToggle } from 'sd-hooks';
 
 export default function Demo1() {
   const [state, { toggle, setLeft, setRight }] = useToggle();

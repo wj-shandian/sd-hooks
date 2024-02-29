@@ -25,8 +25,16 @@ export default defineConfig({
     sidebar: {
       '/hooks': [
         {
+          title: '生命周期',
+          children: [{ title: 'useUnmount', link: '/hooks/use-unmount' }],
+        },
+        {
           title: '状态',
           children: [{ title: 'useToggle', link: '/hooks/use-toggle' }],
+        },
+        {
+          title: '高级',
+          children: [{ title: 'useLatest', link: '/hooks/use-latest' }],
         },
       ],
     },

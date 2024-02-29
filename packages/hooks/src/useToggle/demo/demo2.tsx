@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useToggle } from 'sdHooks';
+import { useToggle } from 'sd-hooks';
 
 export default () => {
   const [state, { toggle, set, setLeft, setRight }] = useToggle('Hello', 'World');

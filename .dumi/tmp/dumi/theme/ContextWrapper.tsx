@@ -39,7 +39,7 @@ export default function DumiContextWrapper() {
       loading,
       setLoading,
       hostname: undefined,
-      themeConfig: {"footer":"Copyright © 2024 | Powered by <a href=\"https://d.umijs.org\" target=\"_blank\" rel=\"noreferrer\">dumi</a>","prefersColor":{"default":"light","switch":true},"nprogress":true,"lastUpdated":true,"name":"sd-hooks","logo":"/sd-hooks/logo.png","favicon":"/sd-hooks/logo.png","nav":[{"title":"指南","link":"/guid"},{"title":"Hooks","link":"/hooks"}],"sidebar":{"/hooks":[{"title":"状态","children":[{"title":"useToggle","link":"/hooks/use-toggle"}]}]}},
+      themeConfig: {"footer":"Copyright © 2024 | Powered by <a href=\"https://d.umijs.org\" target=\"_blank\" rel=\"noreferrer\">dumi</a>","prefersColor":{"default":"light","switch":true},"nprogress":true,"lastUpdated":true,"name":"sd-hooks","logo":"/sd-hooks/logo.png","favicon":"/sd-hooks/logo.png","nav":[{"title":"指南","link":"/guid"},{"title":"Hooks","link":"/hooks"}],"sidebar":{"/hooks":[{"title":"生命周期","children":[{"title":"useUnmount","link":"/hooks/use-unmount"}]},{"title":"状态","children":[{"title":"useToggle","link":"/hooks/use-toggle"}]},{"title":"高级","children":[{"title":"useLatest","link":"/hooks/use-latest"}]}]}},
       _2_level_nav_available: true,
     }}>
       {outlet}
