@@ -33,6 +33,10 @@ export default defineConfig({
           children: [{ title: 'useToggle', link: '/hooks/use-toggle' }],
         },
         {
+          title: 'dom',
+          children: [{ title: 'useTitle', link: '/hooks/use-title' }],
+        },
+        {
           title: '高级',
           children: [{ title: 'useLatest', link: '/hooks/use-latest' }],
         },
