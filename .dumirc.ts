@@ -32,6 +32,10 @@ export default defineConfig({
           ],
         },
         {
+          title: '场景',
+          children: [{ title: 'useCountDown', link: '/hooks/use-count-down' }],
+        },
+        {
           title: '状态',
           children: [{ title: 'useToggle', link: '/hooks/use-toggle' }],
         },
