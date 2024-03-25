@@ -6,6 +6,8 @@ import useTitle from './useTitle';
 import useTimeout from './useTimeout';
 import useMemoizedFn from './useMemoizedFn';
 import useCountDown from './useCountDown';
+import useDebounceFn from './useDebounceFn';
+import useThrottleFn from './useThrottleFn';
 
 export {
   useToggle,
@@ -16,4 +18,6 @@ export {
   useTimeout,
   useMemoizedFn,
   useCountDown,
+  useDebounceFn,
+  useThrottleFn,
 };

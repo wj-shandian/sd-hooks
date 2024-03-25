@@ -45,7 +45,11 @@ export default defineConfig({
         },
         {
           title: '副作用',
-          children: [{ title: 'useTimeout', link: '/hooks/use-timeout' }],
+          children: [
+            { title: 'useTimeout', link: '/hooks/use-timeout' },
+            { title: 'useDebounceFn', link: '/hooks/use-debounce-fn' },
+            { title: 'useThrottleFn', link: '/hooks/use-throttle-fn' },
+          ],
         },
         {
           title: '高级',
