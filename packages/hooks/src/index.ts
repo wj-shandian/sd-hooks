@@ -8,6 +8,10 @@ import useMemoizedFn from './useMemoizedFn';
 import useCountDown from './useCountDown';
 import useDebounceFn from './useDebounceFn';
 import useThrottleFn from './useThrottleFn';
+import useCookieState from './useCookieState';
+import useUpdateEffect from './useUpdateEffect';
+import useLocalStorageState from './useLocalStorageState';
+import useSessionStorageState from './useSessionStorageState';
 
 export {
   useToggle,
@@ -20,4 +24,8 @@ export {
   useCountDown,
   useDebounceFn,
   useThrottleFn,
+  useCookieState,
+  useUpdateEffect,
+  useLocalStorageState,
+  useSessionStorageState,
 };

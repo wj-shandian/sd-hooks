@@ -19,7 +19,7 @@ export default defineConfig({
       { title: '指南', link: '/guid' },
       {
         title: 'Hooks',
-        link: '/hooks',
+        link: '/hooks/use-mount',
       },
     ],
     sidebar: {
@@ -37,7 +37,12 @@ export default defineConfig({
         },
         {
           title: '状态',
-          children: [{ title: 'useToggle', link: '/hooks/use-toggle' }],
+          children: [
+            { title: 'useToggle', link: '/hooks/use-toggle' },
+            { title: 'useCookieState', link: '/hooks/use-cookie-state' },
+            { title: 'useLocalStorageState', link: '/hooks/use-local-storage-state' },
+            { title: 'useSessionStorageState', link: '/hooks/use-session-storage-state' },
+          ],
         },
         {
           title: 'dom',
@@ -47,6 +52,7 @@ export default defineConfig({
           title: '副作用',
           children: [
             { title: 'useTimeout', link: '/hooks/use-timeout' },
+            { title: 'useUpdateEffect', link: '/hooks/use-update-effect' },
             { title: 'useDebounceFn', link: '/hooks/use-debounce-fn' },
             { title: 'useThrottleFn', link: '/hooks/use-throttle-fn' },
           ],
